@@ -1,5 +1,3 @@
-// Access the #next, #previous and #shuffle elements from the HTML file.
-// Assign them to variables named nextButton, previousButton, and shuffleButton, respectively.
 const playlistSongs = document.getElementById('playlist-songs')
 const playButton = document.getElementById('play')
 const pauseButton = document.getElementById('pause')
@@ -30,3 +28,6 @@ const allSongs = [
         src: "https://s3.amazonaws.com/org.freecodecamp.mp3-player-project/still-learning.mp3",
     }
 ]
+
+const audio = new Audio()
+let userData = {}
